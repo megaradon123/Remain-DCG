@@ -132,7 +132,7 @@ znReady(function() {
                 n = t.querySelector(":scope > button"),
                 i = t.querySelector(":scope > .zn-popup-overlay"),
                 a = i.querySelector(":scope > .zn-popup-mask"),
-                o = "true",
+                o = "false",
                 r = 1e3 * parseFloat("3s"),
                 s = null != document.querySelector(".zn-container.editing");
             function l() {
@@ -197,7 +197,7 @@ znReady(function() {
                     n = t.querySelector(":scope > button"),
                     i = t.querySelector(":scope > .zn-popup-overlay"),
                     a = i.querySelector(":scope > .zn-popup-mask"),
-                    o = "true",
+                    o = "false",
                     r = 1e3 * parseFloat("5s"),
                     s = null != document.querySelector(".zn-container.editing");
                 function l() {

@@ -1744,6 +1744,13 @@
 #znid-044516431264>.zn-element>.zn-pricing>.zn-pricing-container>.zn-pricing-children {
     padding: 16px 16px 16px 16px;
 }
+@media (max-width: 720px) {
+    #znid-044516431264>.zn-element>.zn-pricing>.zn-pricing-container>.zn-pricing-price .zn-pricing-info .zn-pricing__price {
+        font-weight: bold;
+        font-size: 40px;
+        color: #333333;
+    }
+}
 #znid-992733838445 {
     margin: 0px 0px 0px 0px;
 }
